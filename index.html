@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Selamat Ulang Tahun 🎂</title>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="fl"></div>
+<canvas id="cv"></canvas>
+<div id="stage">
+ <section class="pg">
+  <div class="big">🎂</div>
+  <h1 class="tt bl">Happy Birthday!</h1>
+  <div class="chip">Angelica Jasheynne 🎉</div>
+  <div class="sm">Ada kejutan seru menunggumu cantik</div>
+  <button class="btn" id="go">🎆 Nyalakan Petasan!</button>
+ </section>
+ <section class="pg">
+  <h2 class="tt bl" style="font-size:clamp(2rem,9vw,3.6rem)">Selamat Ulang Tahun</h2>
+  <div class="chip nm">Jasheynne</div>
+  <p class="bub" id="msg"></p>
+ </section>
+ <section class="pg">
+  <h2 class="tt bl" style="font-size:clamp(2rem,9vw,3.4rem)">Pecahkan Balon!</h2>
+  <div class="sm">Ketuk balon yang naik. Skor: <b id="sc">0</b>/10</div>
+  <div class="arena" id="ar"></div>
+ </section>
+ <section class="pg">
+  <h2 class="tt bl" style="font-size:clamp(2rem,9vw,3.4rem)">Pilih Kadomu!</h2>
+  <div class="sm">Ketuk tiap kado untuk membukanya</div>
+  <div class="gr" id="gr"></div>
+ </section>
+ <section class="pg">
+  <h2 class="tt bl" style="font-size:clamp(2rem,9vw,3.4rem)">Tiup Lilinnya!</h2>
+  <div class="cake"><div class="tier t1"></div><div class="tier t2"></div>
+   <span class="cd" style="left:62px"><i class="fm"></i></span><span class="cd" style="left:95px"><i class="fm"></i></span><span class="cd" style="left:129px"><i class="fm"></i></span></div>
+  <button class="btn" id="blow">🌬️ Tiup!</button>
+  <p id="wish">Make a wish… semoga terkabul ✨</p>
+ </section>
+ <section class="pg">
+  <div class="big">💛</div>
+  <h1 class="tt bl">Terima Kasih!</h1>
+  <p class="bub" style="min-height:0;margin-top:16px">Sekali lagi, selamat ulang tahun, <b class="nm">Sayang</b>! Semoga harimu penuh tawa, canda, dan pelukan hangat 🥳</p>
+  <button class="btn" id="re">↻ Ulangi Lagi</button>
+ </section>
+</div>
+<div id="nav" class="hide"><button class="ar" id="bp">‹</button><div id="dots"></div><button class="ar" id="bn">›</button></div>
+<script src="config.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
